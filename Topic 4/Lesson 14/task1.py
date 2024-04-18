@@ -8,7 +8,4 @@ def rev(my_list):
 
     rev(my_list)
     
-    
-    
-    
 rev(my_list)
