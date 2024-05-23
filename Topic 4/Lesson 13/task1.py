@@ -12,8 +12,8 @@ def sum(tmp,tmp2):
 
 x = int(input('Ширина: '))
 y = int(input('Длина: '))
-tmp = [[random.randint(0, 10) for i in range(x)] for i in range(y)]
-tmp2 = [[random.randint(0, 10) for i in range(x)] for i in range(y)]
+tmp = [[random.randint(0, 1) for i in range(x)] for i in range(y)]
+tmp2 = [[random.randint(0, 1) for i in range(x)] for i in range(y)]
 tmp3 = [[[] for i in range(x)] for i in range(y)]
 print('Матрица 1.')
 pl(tmp)
