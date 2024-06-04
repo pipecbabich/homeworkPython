@@ -6,9 +6,10 @@ class Transport:
     self.max_speed = max_speed
     self.mileage = mileage
  
+class Autobus(Transport):
 
-   def seating_capacity(self, capacity = 50):
+    def seating_capacity(self, capacity = 50):
        return f"Вместимость одного автобуса {self.name}: {capacity} пассажиров"
    
-autobus = Transport('Renaul Logan', 180, 12)
+autobus = Autobus('Renaul Logan', 180, 12)
 print(autobus.seating_capacity())

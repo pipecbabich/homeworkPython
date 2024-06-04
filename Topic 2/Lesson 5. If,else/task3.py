@@ -8,7 +8,7 @@ elif mike >= mininv and ivan < mininv:
     print ("Майкл")
 elif mike < mininv and ivan >= mininv:
     print ("Иван")
-elif total >= 0:
+elif total >= mininv:
     print(1)
 else:
     print(0)

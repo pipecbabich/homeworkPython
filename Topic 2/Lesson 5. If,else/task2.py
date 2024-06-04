@@ -4,6 +4,7 @@ e = word.count("e")
 i = word.count("i")
 o = word.count("o")
 u = word.count("u")
+sumg = a+e+i+o+u
 if a==0:
     print("a: False")
 else:
@@ -25,3 +26,4 @@ if u==0:
 else:
     print(f"u: {u}")
 print (f"Гласных: {a+e+i+o+u}")
+print (f"Согласных: {len(word)-sumg}")
